@@ -3,6 +3,14 @@ glog
 
 Leveled execution logs for Go.
 
+## Modified version by chmike
+
+Reference https://github.com/chmike/glog.
+
+Replace command line configuration with Init(Options...) function.
+
+----
+
 This is an efficient pure Go implementation of leveled logs in the
 manner of the open source C++ package
 	https://github.com/google/glog
